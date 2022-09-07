@@ -1,0 +1,30 @@
+{
+  "name": "@lucaspickering/eslint-config",
+  "version": "1.0.0",
+  "author": "Lucas Pickering <lucas@lucaspickering.me>",
+  "description": "TypeScript ESlint config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasPickering/skeleton-man.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasPickering/skeleton-man/issues"
+  },
+  "homepage": "https://github.com/LucasPickering/skeleton-man#readme",
+  "main": "index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "./*.js"
+  ],
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-jest": "^27.0.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
