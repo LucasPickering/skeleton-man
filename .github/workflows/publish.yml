@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: "Publish package"
+    strategy:
+      matrix:
+        package:
+          - eslint-config
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 18
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          package: ./packages/${{ matrix.package }}/package.json
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
