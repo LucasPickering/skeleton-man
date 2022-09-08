@@ -1,0 +1,21 @@
+{
+  "name": "@lucaspickering/tsconfig",
+  "version": "1.0.0",
+  "author": "Lucas Pickering <lucas@lucaspickering.me>",
+  "description": "TypeScript config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasPickering/skeleton-man.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasPickering/skeleton-man/issues"
+  },
+  "homepage": "https://github.com/LucasPickering/skeleton-man#readme",
+  "tsconfig": "tsconfig.json",
+  "files": [
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ]
+}

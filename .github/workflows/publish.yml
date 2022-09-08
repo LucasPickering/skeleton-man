@@ -10,6 +10,7 @@ jobs:
       matrix:
         package:
           - eslint-config
+          - tsconfig
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
