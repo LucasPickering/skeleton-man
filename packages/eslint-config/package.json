@@ -1,6 +1,6 @@
 {
   "name": "@lucaspickering/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Lucas Pickering <lucas@lucaspickering.me>",
   "description": "TypeScript ESlint config",
   "license": "MIT",
@@ -18,9 +18,10 @@
     "README.md",
     "./*.js"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-jest": "^27.0.1",
