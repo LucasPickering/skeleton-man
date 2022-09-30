@@ -3,6 +3,8 @@ on:
     branches:
       - master
 
+# Note: this doesn't work because of auth issues, but I'm leaving it in case
+# I ever get motivated to fix it.
 jobs:
   publish:
     name: "Publish package"
