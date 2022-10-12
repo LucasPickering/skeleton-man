@@ -13,11 +13,12 @@ module.exports = {
     },
   },
   rules: {
+    "jsx-a11y/no-autofocus": "off",
+    "react/display-name": "error",
+    "react/no-unescaped-entities": ["error", { forbid: ["<", ">"] }],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-    "react/display-name": "error",
-    "jsx-a11y/no-autofocus": "off",
+    "react-hooks/rules-of-hooks": "error",
   },
 };
