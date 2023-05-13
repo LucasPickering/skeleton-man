@@ -9,6 +9,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:jest/recommended",
   ],
+  plugins: ["import"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -29,6 +30,7 @@ module.exports = {
       { ignoreParameters: true },
     ],
     "@typescript-eslint/camelcase": "off",
+    "import/order": ["error"],
   },
   overrides: [
     {
