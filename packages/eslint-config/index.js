@@ -3,12 +3,11 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "prettier"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
+    "plugin:jest/recommended",
   ],
   globals: {
     Atomics: "readonly",
