@@ -15,6 +15,7 @@ module.exports = {
     SharedArrayBuffer: "readonly",
   },
   rules: {
+    eqeqeq: "error",
     "no-console": "warn",
     "no-unused-vars": "off",
     "object-shorthand": "error",
